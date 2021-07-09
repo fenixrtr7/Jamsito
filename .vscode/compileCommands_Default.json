@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\\\Users\\\\AmberPC01\\\\Documents\\\\Unreal Projects\\\\Jamsito\\\\Source\\\\Jamsito\\\\Jamsito.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Default\\Jamsito.182.rsp\"",
+		"directory": "D:\\Epic\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\AmberPC01\\\\Documents\\\\Unreal Projects\\\\Jamsito\\\\Source\\\\Jamsito\\\\Jamsito.cpp",
+		"command": "cl.exe @\"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Default\\Jamsito.182.rsp\"",
+		"directory": "D:\\Epic\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\AmberPC01\\\\Documents\\\\Unreal Projects\\\\Jamsito\\\\Source\\\\Jamsito\\\\Jamsito.h",
+		"command": "cl.exe @\"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Default\\Jamsito.182.rsp\"",
+		"directory": "D:\\Epic\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\AmberPC01\\\\Documents\\\\Unreal Projects\\\\Jamsito\\\\Source\\\\Jamsito\\\\MyCharacterEnemie.cpp",
+		"command": "cl.exe @\"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Default\\Jamsito.182.rsp\"",
+		"directory": "D:\\Epic\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\AmberPC01\\\\Documents\\\\Unreal Projects\\\\Jamsito\\\\Source\\\\Jamsito\\\\MyCharacterEnemie.h",
+		"command": "cl.exe @\"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Default\\Jamsito.182.rsp\"",
+		"directory": "D:\\Epic\\UE_4.26\\Engine\\Source"
+	}
+]

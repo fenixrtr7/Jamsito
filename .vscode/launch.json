@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Jamsito (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Jamsito Win64 Debug Build",
+			"program": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Jamsito (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Jamsito Win64 DebugGame Build",
+			"program": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Jamsito (Development)",
+			"request": "launch",
+			"preLaunchTask": "Jamsito Win64 Development Build",
+			"program": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Jamsito (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Jamsito Win64 Shipping Build",
+			"program": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Jamsito (Test)",
+			"request": "launch",
+			"preLaunchTask": "Jamsito Win64 Test Build",
+			"program": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "JamsitoEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "JamsitoEditor Win64 Debug Build",
+			"program": "D:\\Epic\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject"
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "JamsitoEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "JamsitoEditor Win64 DebugGame Build",
+			"program": "D:\\Epic\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject"
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "JamsitoEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "JamsitoEditor Win64 Development Build",
+			"program": "D:\\Epic\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject"
+			],
+			"cwd": "D:\\Epic\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Epic\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Epic\\UE_4.26"
+		}
+	]
+}

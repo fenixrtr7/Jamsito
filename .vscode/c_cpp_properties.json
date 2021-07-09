@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "JamsitoEditor Editor Win64 Development (Jamsito)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Jamsito.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

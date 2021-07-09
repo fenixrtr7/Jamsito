@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Jamsito Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win32",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Win64",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Shipping",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Jamsito Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "Jamsito Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Jamsito",
+				"Android",
+				"Test",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"JamsitoEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"JamsitoEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"JamsitoEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		},
+		{
+			"label": "JamsitoEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"JamsitoEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\AmberPC01\\Documents\\Unreal Projects\\Jamsito\\Jamsito.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic\\UE_4.26"
+			}
+		}
+	]
+}
