@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Interfaces/PatrolObject.h"
 #include "MyCharacterEnemie.generated.h"
 
 UCLASS()
-class JAMSITO_API AMyCharacterEnemie : public ACharacter
+class JAMSITO_API AMyCharacterEnemie : public ACharacter, public IPatrolObject
 {
 	GENERATED_BODY()
 
@@ -28,6 +29,11 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float RotationSpeed = 45;
+
+	UPROPERTY(EditAnywhere)
+		TArray<class ATargetPoint*> Waypoints;
+
+	TArray<class ATargetPoint*> GetWaypoints() override;
 
 private:
 

@@ -3,6 +3,7 @@
 
 #include "MyCharacterEnemie.h"
 #include "Engine/World.h"
+#include "Engine/TargetPoint.h"
 
 // Sets default values
 AMyCharacterEnemie::AMyCharacterEnemie()
@@ -35,6 +36,11 @@ void AMyCharacterEnemie::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	PlayerInputComponent->BindAxis("MoveRight/Left", this, &AMyCharacterEnemie::MoveRight);
 	PlayerInputComponent->BindAxis("LookUp/Down", this, &AMyCharacterEnemie::RotateYaw);
 	PlayerInputComponent->BindAxis("LookLeft/Right", this, &AMyCharacterEnemie::RotatePitch);*/
+}
+
+TArray<ATargetPoint*> AMyCharacterEnemie::GetWaypoints()
+{
+	return Waypoints;
 }
 
 //void AMyCharacterEnemie::MoveForward(float value)
